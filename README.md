@@ -5,7 +5,7 @@ Passport Photo generation related
 Just run `python3 -m pip install -r requirements.txt`
 
 # passportPhotoGen.py 
-Scales passportPhoto.png to Australian Passport dimensions (37mm by 47mm) & outputs it for 4x6 printing format.
+Scales passportPhoto.png to Australian Passport dimensions (37mm by 47mm) & outputs it for 4x6 printing format. It will make multiple copies to use up all the 4x6 space, but allow margins for cutting.
 
 - usage: `passportPhotoGen.py passportPhoto.png` -  Output filename: passportPhoto.jpg
 
